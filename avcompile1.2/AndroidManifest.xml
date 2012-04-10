@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.dbz.apps.avalanche" android:versionCode="3" android:versionName="1.2">
+  <uses-sdk android:minSdkVersion="7"/>
+  <application android:label="Avalanche" android:icon="@drawable/icon" android:debuggable="false">
+    <activity android:name=".Avalanche">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>
